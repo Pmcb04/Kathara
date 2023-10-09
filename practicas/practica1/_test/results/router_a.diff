@@ -1,0 +1,163 @@
+User Test Result:
++------------------------ ROUTES
++------------------------ PING
+-64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=0.030 ms
++64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=0.023 ms
+-rtt min/avg/max/mdev = 0.030/0.030/0.030/0.000 ms
+-traceroute to 192.168.1.1 (192.168.1.1), 30 hops max, 60 byte packets
+- 1  192.168.1.1 (192.168.1.1)  0.041 ms  0.014 ms  0.009 ms
++rtt min/avg/max/mdev = 0.023/0.023/0.023/0.000 ms
+-64 bytes from 192.168.1.2: icmp_seq=1 ttl=64 time=0.213 ms
++64 bytes from 192.168.1.2: icmp_seq=1 ttl=64 time=0.138 ms
+-rtt min/avg/max/mdev = 0.213/0.213/0.213/0.000 ms
+-traceroute to 192.168.1.2 (192.168.1.2), 30 hops max, 60 byte packets
+- 1  192.168.1.2 (192.168.1.2)  0.603 ms  0.588 ms  0.772 ms
++rtt min/avg/max/mdev = 0.138/0.138/0.138/0.000 ms
+-64 bytes from 192.168.2.1: icmp_seq=1 ttl=64 time=0.456 ms
++64 bytes from 192.168.2.1: icmp_seq=1 ttl=64 time=0.339 ms
+-rtt min/avg/max/mdev = 0.456/0.456/0.456/0.000 ms
+-traceroute to 192.168.2.1 (192.168.2.1), 30 hops max, 60 byte packets
+- 1  192.168.3.2 (192.168.3.2)  0.495 ms  0.856 ms  0.847 ms
+- 2  192.168.2.1 (192.168.2.1)  3.526 ms  3.557 ms  3.550 ms
++rtt min/avg/max/mdev = 0.339/0.339/0.339/0.000 ms
+-64 bytes from 192.168.2.2: icmp_seq=1 ttl=64 time=0.205 ms
++64 bytes from 192.168.2.2: icmp_seq=1 ttl=64 time=0.228 ms
+-rtt min/avg/max/mdev = 0.205/0.205/0.205/0.000 ms
+-traceroute to 192.168.2.2 (192.168.2.2), 30 hops max, 60 byte packets
+- 1  192.168.2.2 (192.168.2.2)  0.352 ms  0.217 ms  0.150 ms
++rtt min/avg/max/mdev = 0.228/0.228/0.228/0.000 ms
+-64 bytes from 192.168.3.1: icmp_seq=1 ttl=64 time=0.030 ms
++64 bytes from 192.168.3.1: icmp_seq=1 ttl=64 time=0.024 ms
+-rtt min/avg/max/mdev = 0.030/0.030/0.030/0.000 ms
+-traceroute to 192.168.3.1 (192.168.3.1), 30 hops max, 60 byte packets
+- 1  192.168.3.1 (192.168.3.1)  0.059 ms  0.014 ms  0.011 ms
++rtt min/avg/max/mdev = 0.024/0.024/0.024/0.000 ms
+-64 bytes from 192.168.3.2: icmp_seq=1 ttl=64 time=0.179 ms
++64 bytes from 192.168.3.2: icmp_seq=1 ttl=64 time=0.243 ms
+-rtt min/avg/max/mdev = 0.179/0.179/0.179/0.000 ms
+-traceroute to 192.168.3.2 (192.168.3.2), 30 hops max, 60 byte packets
+- 1  192.168.3.2 (192.168.3.2)  0.293 ms  0.349 ms  0.444 ms
++rtt min/avg/max/mdev = 0.243/0.243/0.243/0.000 ms
+-64 bytes from 128.0.0.1: icmp_seq=1 ttl=64 time=0.487 ms
++64 bytes from 128.0.0.1: icmp_seq=1 ttl=64 time=0.178 ms
+-rtt min/avg/max/mdev = 0.487/0.487/0.487/0.000 ms
+-traceroute to 128.0.0.1 (128.0.0.1), 30 hops max, 60 byte packets
+- 1  128.0.0.1 (128.0.0.1)  0.307 ms  0.358 ms  0.390 ms
++rtt min/avg/max/mdev = 0.178/0.178/0.178/0.000 ms
+-64 bytes from 128.0.0.2: icmp_seq=1 ttl=63 time=0.428 ms
++64 bytes from 128.0.0.2: icmp_seq=1 ttl=63 time=0.218 ms
+-rtt min/avg/max/mdev = 0.428/0.428/0.428/0.000 ms
+-traceroute to 128.0.0.2 (128.0.0.2), 30 hops max, 60 byte packets
+- 1  192.168.1.2 (192.168.1.2)  0.228 ms  0.247 ms  0.145 ms
++rtt min/avg/max/mdev = 0.218/0.218/0.218/0.000 ms
++PING 64.0.0.1 (64.0.0.1) 56(84) bytes of data.
++64 bytes from 64.0.0.1: icmp_seq=1 ttl=64 time=0.135 ms
++
++--- 64.0.0.1 ping statistics ---
++1 packets transmitted, 1 received, 0% packet loss, time 0ms
++rtt min/avg/max/mdev = 0.135/0.135/0.135/0.000 ms
++PING 64.0.0.2 (64.0.0.2) 56(84) bytes of data.
++64 bytes from 64.0.0.2: icmp_seq=1 ttl=63 time=0.247 ms
++
++--- 64.0.0.2 ping statistics ---
++1 packets transmitted, 1 received, 0% packet loss, time 0ms
++rtt min/avg/max/mdev = 0.247/0.247/0.247/0.000 ms
++PING 32.0.0.1 (32.0.0.1) 56(84) bytes of data.
++64 bytes from 32.0.0.1: icmp_seq=1 ttl=64 time=0.022 ms
++
++--- 32.0.0.1 ping statistics ---
++1 packets transmitted, 1 received, 0% packet loss, time 0ms
++rtt min/avg/max/mdev = 0.022/0.022/0.022/0.000 ms
++PING 32.0.0.2 (32.0.0.2) 56(84) bytes of data.
++64 bytes from 32.0.0.2: icmp_seq=1 ttl=64 time=0.165 ms
++
++--- 32.0.0.2 ping statistics ---
++1 packets transmitted, 1 received, 0% packet loss, time 0ms
++rtt min/avg/max/mdev = 0.165/0.165/0.165/0.000 ms
++PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
++64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=0.136 ms
++
++--- 10.0.0.1 ping statistics ---
++1 packets transmitted, 1 received, 0% packet loss, time 0ms
++rtt min/avg/max/mdev = 0.136/0.136/0.136/0.000 ms
++PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
++64 bytes from 10.0.0.2: icmp_seq=1 ttl=63 time=0.285 ms
++
++--- 10.0.0.2 ping statistics ---
++1 packets transmitted, 1 received, 0% packet loss, time 0ms
++rtt min/avg/max/mdev = 0.285/0.285/0.285/0.000 ms
++------------------------ TRACEROUTE
++traceroute to 192.168.1.1 (192.168.1.1), 30 hops max, 60 byte packets
++ 1  192.168.1.1 (192.168.1.1)  0.034 ms  0.011 ms  0.006 ms
++traceroute to 192.168.1.2 (192.168.1.2), 30 hops max, 60 byte packets
++ 1  192.168.1.2 (192.168.1.2)  0.271 ms  0.407 ms  0.587 ms
++traceroute to 192.168.2.1 (192.168.2.1), 30 hops max, 60 byte packets
++ 1  192.168.3.2 (192.168.3.2)  0.150 ms  0.262 ms  0.367 ms
++ 2  192.168.2.1 (192.168.2.1)  0.915 ms  1.000 ms  1.081 ms
++traceroute to 192.168.2.2 (192.168.2.2), 30 hops max, 60 byte packets
++ 1  192.168.2.2 (192.168.2.2)  0.259 ms  0.350 ms  0.431 ms
++traceroute to 192.168.3.1 (192.168.3.1), 30 hops max, 60 byte packets
++ 1  192.168.3.1 (192.168.3.1)  0.021 ms  0.008 ms  0.008 ms
++traceroute to 192.168.3.2 (192.168.3.2), 30 hops max, 60 byte packets
++ 1  192.168.3.2 (192.168.3.2)  0.176 ms  0.319 ms  0.456 ms
++traceroute to 128.0.0.1 (128.0.0.1), 30 hops max, 60 byte packets
++ 1  * * *
+- 6  * * *
+- 7  * 128.0.0.2 (128.0.0.2)  1.622 ms  1.927 ms
+-PING 64.0.0.1 (64.0.0.1) 56(84) bytes of data.
+-64 bytes from 64.0.0.1: icmp_seq=1 ttl=64 time=0.086 ms
+-
+-1 packets transmitted, 1 received, 0% packet loss, time 0ms
+-rtt min/avg/max/mdev = 0.086/0.086/0.086/0.000 ms
++ 6  * 128.0.0.1 (128.0.0.1)  1.228 ms  1.690 ms
++traceroute to 128.0.0.2 (128.0.0.2), 30 hops max, 60 byte packets
++ 1  192.168.1.2 (192.168.1.2)  0.387 ms  0.466 ms  1.001 ms
++ 2  128.0.0.2 (128.0.0.2)  0.992 ms  1.258 ms  1.453 ms
+- 1  64.0.0.1 (64.0.0.1)  0.267 ms  0.392 ms  0.553 ms
+-PING 64.0.0.2 (64.0.0.2) 56(84) bytes of data.
+-64 bytes from 64.0.0.2: icmp_seq=1 ttl=63 time=0.245 ms
+-
+-1 packets transmitted, 1 received, 0% packet loss, time 0ms
+-rtt min/avg/max/mdev = 0.245/0.245/0.245/0.000 ms
++ 1  64.0.0.1 (64.0.0.1)  0.690 ms  0.769 ms  0.865 ms
+- 1  192.168.1.2 (192.168.1.2)  0.340 ms  0.474 ms  0.646 ms
+- 2  64.0.0.2 (64.0.0.2)  0.818 ms  0.948 ms  1.312 ms
+-PING 32.0.0.1 (32.0.0.1) 56(84) bytes of data.
+-64 bytes from 32.0.0.1: icmp_seq=1 ttl=64 time=0.019 ms
+-
+-1 packets transmitted, 1 received, 0% packet loss, time 0ms
+-rtt min/avg/max/mdev = 0.019/0.019/0.019/0.000 ms
++ 1  192.168.1.2 (192.168.1.2)  0.196 ms  0.295 ms  0.389 ms
++ 2  64.0.0.2 (64.0.0.2)  0.570 ms * *
+- 1  32.0.0.1 (32.0.0.1)  0.034 ms  0.011 ms  0.011 ms
+-PING 32.0.0.2 (32.0.0.2) 56(84) bytes of data.
+-64 bytes from 32.0.0.2: icmp_seq=1 ttl=64 time=0.251 ms
+-
+-1 packets transmitted, 1 received, 0% packet loss, time 0ms
+-rtt min/avg/max/mdev = 0.251/0.251/0.251/0.000 ms
++ 1  32.0.0.1 (32.0.0.1)  0.029 ms  0.010 ms  0.007 ms
+- 1  32.0.0.2 (32.0.0.2)  0.338 ms  0.341 ms  0.452 ms
+-PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+-64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=0.155 ms
+-
+-1 packets transmitted, 1 received, 0% packet loss, time 0ms
+-rtt min/avg/max/mdev = 0.155/0.155/0.155/0.000 ms
++ 1  32.0.0.2 (32.0.0.2)  0.180 ms  0.337 ms  0.438 ms
+- 1  10.0.0.1 (10.0.0.1)  0.212 ms  0.341 ms  0.435 ms
+-PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+-64 bytes from 10.0.0.2: icmp_seq=1 ttl=63 time=0.199 ms
+-
+-1 packets transmitted, 1 received, 0% packet loss, time 0ms
+-rtt min/avg/max/mdev = 0.199/0.199/0.199/0.000 ms
++ 1  10.0.0.1 (10.0.0.1)  0.361 ms  0.446 ms *
+- 6  * 10.0.0.2 (10.0.0.2)  0.662 ms  0.754 ms
++ 6  * 10.0.0.2 (10.0.0.2)  1.666 ms  2.739 ms
++------------------------ ARP
+-32.0.0.2                 ether   1e:65:9c:45:df:c9   C                     eth1
+-192.168.2.2              ether   16:e2:48:bd:01:f0   C                     eth2
+-192.168.3.2              ether   16:e2:48:bd:01:f0   C                     eth2
+-192.168.1.2              ether   86:5c:91:6c:03:89   C                     eth0
++32.0.0.2                 ether   f6:00:70:2f:22:ef   C                     eth1
++192.168.2.2              ether   b6:37:48:b5:e2:40   C                     eth2
++192.168.3.2              ether   b6:37:48:b5:e2:40   C                     eth2
++192.168.1.2              ether   96:c8:cd:a3:20:1f   C                     eth0

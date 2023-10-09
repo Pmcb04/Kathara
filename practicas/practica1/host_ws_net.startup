@@ -1,0 +1,5 @@
+ifconfig eth0 64.0.0.2/26 up
+
+route add default gw 64.0.0.1
+
+route

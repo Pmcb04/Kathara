@@ -1,0 +1,141 @@
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         192.168.1.2     0.0.0.0         UG    0      0        0 eth2
+10.0.0.0        192.168.1.1     255.0.0.0       UG    0      0        0 eth2
+32.0.0.0        192.168.1.1     255.255.255.224 UG    0      0        0 eth2
+64.0.0.0        0.0.0.0         255.255.255.192 U     0      0        0 eth1
+128.0.0.0       0.0.0.0         255.255.255.128 U     0      0        0 eth0
+192.168.1.0     0.0.0.0         255.255.255.252 U     0      0        0 eth2
+192.168.2.0     0.0.0.0         255.255.255.252 U     0      0        0 eth3
+192.168.3.0     192.168.1.1     255.255.255.252 UG    0      0        0 eth2
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=0.195 ms
+
+--- 192.168.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.195/0.195/0.195/0.000 ms
+traceroute to 192.168.1.1 (192.168.1.1), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.146 ms  0.266 ms  0.341 ms
+PING 192.168.1.2 (192.168.1.2) 56(84) bytes of data.
+64 bytes from 192.168.1.2: icmp_seq=1 ttl=64 time=0.017 ms
+
+--- 192.168.1.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.017/0.017/0.017/0.000 ms
+traceroute to 192.168.1.2 (192.168.1.2), 30 hops max, 60 byte packets
+ 1  192.168.1.2 (192.168.1.2)  0.034 ms  0.010 ms  0.006 ms
+PING 192.168.2.1 (192.168.2.1) 56(84) bytes of data.
+64 bytes from 192.168.2.1: icmp_seq=1 ttl=64 time=0.022 ms
+
+--- 192.168.2.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.022/0.022/0.022/0.000 ms
+traceroute to 192.168.2.1 (192.168.2.1), 30 hops max, 60 byte packets
+ 1  192.168.2.1 (192.168.2.1)  0.036 ms  0.011 ms  0.008 ms
+PING 192.168.2.2 (192.168.2.2) 56(84) bytes of data.
+64 bytes from 192.168.2.2: icmp_seq=1 ttl=64 time=0.154 ms
+
+--- 192.168.2.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.154/0.154/0.154/0.000 ms
+traceroute to 192.168.2.2 (192.168.2.2), 30 hops max, 60 byte packets
+ 1  192.168.2.2 (192.168.2.2)  0.228 ms  0.335 ms  0.408 ms
+PING 192.168.3.1 (192.168.3.1) 56(84) bytes of data.
+64 bytes from 192.168.3.1: icmp_seq=1 ttl=64 time=0.101 ms
+
+--- 192.168.3.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.101/0.101/0.101/0.000 ms
+traceroute to 192.168.3.1 (192.168.3.1), 30 hops max, 60 byte packets
+ 1  192.168.3.1 (192.168.3.1)  0.199 ms  0.304 ms  0.402 ms
+PING 192.168.3.2 (192.168.3.2) 56(84) bytes of data.
+64 bytes from 192.168.3.2: icmp_seq=1 ttl=63 time=0.188 ms
+
+--- 192.168.3.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.188/0.188/0.188/0.000 ms
+traceroute to 192.168.3.2 (192.168.3.2), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.157 ms  0.257 ms  0.365 ms
+ 2  192.168.3.2 (192.168.3.2)  0.754 ms  1.004 ms  1.572 ms
+PING 128.0.0.1 (128.0.0.1) 56(84) bytes of data.
+64 bytes from 128.0.0.1: icmp_seq=1 ttl=64 time=0.015 ms
+
+--- 128.0.0.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.015/0.015/0.015/0.000 ms
+traceroute to 128.0.0.1 (128.0.0.1), 30 hops max, 60 byte packets
+ 1  128.0.0.1 (128.0.0.1)  0.030 ms  0.009 ms  0.007 ms
+PING 128.0.0.2 (128.0.0.2) 56(84) bytes of data.
+64 bytes from 128.0.0.2: icmp_seq=1 ttl=64 time=0.227 ms
+
+--- 128.0.0.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.227/0.227/0.227/0.000 ms
+traceroute to 128.0.0.2 (128.0.0.2), 30 hops max, 60 byte packets
+ 1  128.0.0.2 (128.0.0.2)  0.277 ms  0.398 ms  0.541 ms
+PING 64.0.0.1 (64.0.0.1) 56(84) bytes of data.
+64 bytes from 64.0.0.1: icmp_seq=1 ttl=64 time=0.019 ms
+
+--- 64.0.0.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.019/0.019/0.019/0.000 ms
+traceroute to 64.0.0.1 (64.0.0.1), 30 hops max, 60 byte packets
+ 1  64.0.0.1 (64.0.0.1)  0.038 ms  0.012 ms  0.010 ms
+PING 64.0.0.2 (64.0.0.2) 56(84) bytes of data.
+64 bytes from 64.0.0.2: icmp_seq=1 ttl=64 time=0.149 ms
+
+--- 64.0.0.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.149/0.149/0.149/0.000 ms
+traceroute to 64.0.0.2 (64.0.0.2), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * 64.0.0.2 (64.0.0.2)  0.775 ms  1.236 ms
+PING 32.0.0.1 (32.0.0.1) 56(84) bytes of data.
+64 bytes from 32.0.0.1: icmp_seq=1 ttl=64 time=0.102 ms
+
+--- 32.0.0.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.102/0.102/0.102/0.000 ms
+traceroute to 32.0.0.1 (32.0.0.1), 30 hops max, 60 byte packets
+ 1  32.0.0.1 (32.0.0.1)  0.472 ms  0.573 ms  0.737 ms
+PING 32.0.0.2 (32.0.0.2) 56(84) bytes of data.
+64 bytes from 32.0.0.2: icmp_seq=1 ttl=63 time=0.176 ms
+
+--- 32.0.0.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.176/0.176/0.176/0.000 ms
+traceroute to 32.0.0.2 (32.0.0.2), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.156 ms  0.263 ms  0.349 ms
+ 2  32.0.0.2 (32.0.0.2)  0.805 ms  1.054 ms  1.209 ms
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=63 time=0.205 ms
+
+--- 10.0.0.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.205/0.205/0.205/0.000 ms
+traceroute to 10.0.0.1 (10.0.0.1), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * 10.0.0.1 (10.0.0.1)  1.890 ms  2.254 ms
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=62 time=0.415 ms
+
+--- 10.0.0.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.415/0.415/0.415/0.000 ms
+traceroute to 10.0.0.2 (10.0.0.2), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.179 ms  0.317 ms  0.457 ms
+ 2  192.168.3.2 (192.168.3.2)  0.777 ms  1.171 ms  1.529 ms
+ 3  10.0.0.2 (10.0.0.2)  1.772 ms  1.879 ms  2.212 ms
+Address                  HWtype  HWaddress           Flags Mask            Iface
+128.0.0.2                ether   be:e0:ab:1c:1b:41   C                     eth0
+64.0.0.2                 ether   02:fe:11:f4:79:10   C                     eth1
+192.168.1.1              ether   ce:33:e9:58:33:a2   C                     eth2
+192.168.2.2              ether   26:71:d6:6e:b2:c1   C                     eth3

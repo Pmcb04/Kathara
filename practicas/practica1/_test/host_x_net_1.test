@@ -1,0 +1,41 @@
+echo "------------------------ ROUTES"
+
+route
+
+echo "------------------------ PING"
+
+ping -c 1 192.168.1.1
+ping -c 1 192.168.1.2
+ping -c 1 192.168.2.1
+ping -c 1 192.168.2.2
+ping -c 1 192.168.3.1
+ping -c 1 192.168.3.2
+ping -c 1 128.0.0.1
+ping -c 1 128.0.0.2
+ping -c 1 64.0.0.1
+ping -c 1 64.0.0.2
+ping -c 1 32.0.0.1
+ping -c 1 32.0.0.2
+ping -c 1 10.0.0.1
+ping -c 1 10.0.0.2
+
+echo "------------------------ TRACEROUTE"
+
+traceroute 192.168.1.1
+traceroute 192.168.1.2
+traceroute 192.168.2.1
+traceroute 192.168.2.2
+traceroute 192.168.3.1
+traceroute 192.168.3.2
+traceroute 128.0.0.1
+traceroute 128.0.0.2
+traceroute 64.0.0.1
+traceroute 64.0.0.2
+traceroute 32.0.0.1
+traceroute 32.0.0.2
+traceroute 10.0.0.1
+traceroute 10.0.0.2
+
+echo "------------------------ ARP"
+
+arp
