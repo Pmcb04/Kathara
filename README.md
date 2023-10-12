@@ -28,8 +28,14 @@ Realización de la primera red con 3 PC's (_pc1, pc2, pc3_) en donde se hace pra
 ## Lab 4 
 Realización de topologías con varias redes en donde un subconjunto del total de redes habla protocolo _RIP_ y el otro no. Se observa como se van intercambiando los mensajes de este protocolo en el tiempo los diferentes host que lo componen.
 
+## Lab 5
+Realización de una topología para poder ver el funcionamiento de el protocol OSPF y ver como se calculan las rutas en función del coste de los enlaces, tambien se hace la prueba de eliminar un enlace y recalcular las rutas, siempre por el camino más corto.
 
-# Practicas
 
-## Practica 1
+# Prácticas
+
+## Práctica 1
 En esta practica se pedía conectar 4 redes (_pc-net, ws-net, x-net-1 e internet_) a 3 routers (_A, B, C_), configurar perfectamente sus tablas de rutas para que haya conectividad total y establecer una serie de pruebas para comprobar esa conectividad total.
+
+## Práctica 2
+En esta segunda práctica se seleccionará una topología de red de las librerías [SNDLib](http://sndlib.zib.de/home.action) o [TopologyZoo](http://www.topology-zoo.org/) y se creará un script que cree un laboratorio de Kathará de manera automática. Tras su ejecución, se realizarán y documentarán diversas pruebas que permitan comprobar el funcionamiento de los protocolos RIP y OSPF estudiados en clase. Se deben describir cada uno de los pasos realizados en una memoria técnica, además de entregar los archivos y los directorios de los laboratorios.
