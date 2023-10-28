@@ -1,0 +1,285 @@
+{
+    "interfaces": {
+        "lo": {
+            "ip_addresses": [
+                "127.0.0.1/8"
+            ],
+            "state": "UNKNOWN"
+        },
+        "eth0": {
+            "ip_addresses": [
+                "10.0.0.85/30"
+            ],
+            "state": "UP"
+        },
+        "eth1": {
+            "ip_addresses": [
+                "10.0.0.89/30"
+            ],
+            "state": "UP"
+        }
+    },
+    "route": [
+        {
+            "dst": "10.0.0.0/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.4/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.8/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.12/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.16/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.20/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.24/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.28/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.32/30",
+            "gateway": "10.0.0.90",
+            "dev": "eth1",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.36/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.40/30",
+            "gateway": "10.0.0.90",
+            "dev": "eth1",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.44/30",
+            "gateway": "10.0.0.90",
+            "dev": "eth1",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.48/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.52/30",
+            "gateway": "10.0.0.90",
+            "dev": "eth1",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.56/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.60/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.64/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.68/30",
+            "gateway": "10.0.0.90",
+            "dev": "eth1",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.72/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.76/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.80/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.84/30",
+            "dev": "eth0",
+            "protocol": "kernel",
+            "scope": "link",
+            "prefsrc": "10.0.0.85",
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.88/30",
+            "dev": "eth1",
+            "protocol": "kernel",
+            "scope": "link",
+            "prefsrc": "10.0.0.89",
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.92/30",
+            "gateway": "10.0.0.90",
+            "dev": "eth1",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.96/30",
+            "gateway": "10.0.0.90",
+            "dev": "eth1",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.100/30",
+            "gateway": "10.0.0.90",
+            "dev": "eth1",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.104/30",
+            "gateway": "10.0.0.90",
+            "dev": "eth1",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.108/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.112/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.116/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        },
+        {
+            "dst": "10.0.0.120/30",
+            "gateway": "10.0.0.86",
+            "dev": "eth0",
+            "protocol": "zebra",
+            "metric": 20,
+            "flags": []
+        }
+    ],
+    "listening_ports": [
+        "raw6       0      0 :::58                   :::*                    7          ",
+        "tcp        0      0 127.0.0.1:2601          0.0.0.0:*               LISTEN     ",
+        "tcp        0      0 127.0.0.1:2602          0.0.0.0:*               LISTEN     ",
+        "udp        0      0 0.0.0.0:520             0.0.0.0:*                          "
+    ],
+    "processes": [
+        "/usr/sbin/ripd --daemon -A 127.0.0.1",
+        "/usr/sbin/watchquagga --daemon zebra ripd",
+        "/usr/sbin/zebra --daemon -A 127.0.0.1",
+        "bash",
+        "ps -e -o command"
+    ]
+}
