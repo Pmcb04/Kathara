@@ -1,0 +1,52 @@
+------------------------------------ Networks
+Network[10.0.0.0]	[Navarra(10.0.0.1) -> Pais Vasco(10.0.0.2)] = 92.41 km
+Network[10.0.0.4]	[Navarra(10.0.0.5) -> Aragon(10.0.0.6)] = 143.65 km
+Network[10.0.0.8]	[Rioja(10.0.0.9) -> Castilla Y Leon(10.0.0.10)] = 207.99 km
+Network[10.0.0.12]	[Rioja(10.0.0.13) -> Aragon(10.0.0.14)] = 158.05 km
+Network[10.0.0.16]	[Cantabria(10.0.0.17) -> Asturias(10.0.0.18)] = 165.21 km
+Network[10.0.0.20]	[Cantabria(10.0.0.21) -> Pais Vasco(10.0.0.22)] = 99.84 km
+Network[10.0.0.24]	[Pais Vasco(10.0.0.25) -> Galacia(10.0.0.26)] = 471.87 km
+Network[10.0.0.28]	[Pais Vasco(10.0.0.29) -> Nacional(10.0.0.30)] = 297.95 km
+Network[10.0.0.32]	[Baleares(10.0.0.33) -> Valencia(10.0.0.34)] = 259.92 km
+Network[10.0.0.36]	[Baleares(10.0.0.37) -> Cataluna(10.0.0.38)] = 206.53 km
+Network[10.0.0.40]	[Valencia(10.0.0.41) -> Murcia(10.0.0.42)] = 177.29 km
+Network[10.0.0.44]	[Valencia(10.0.0.45) -> Andalucia(10.0.0.46)] = 541.10 km
+Network[10.0.0.48]	[Valencia(10.0.0.49) -> Nacional(10.0.0.50)] = 302.37 km
+Network[10.0.0.52]	[Valencia(10.0.0.53) -> Cataluna(10.0.0.54)] = 302.67 km
+Network[10.0.0.56]	[Aragon(10.0.0.57) -> Nacional(10.0.0.58)] = 274.11 km
+Network[10.0.0.60]	[Aragon(10.0.0.61) -> Cataluna(10.0.0.62)] = 254.51 km
+Network[10.0.0.64]	[Cataluna(10.0.0.65) -> Nacional(10.0.0.66)] = 504.24 km
+Network[10.0.0.68]	[Murcia(10.0.0.69) -> Andalucia(10.0.0.70)] = 433.81 km
+Network[10.0.0.72]	[Galacia(10.0.0.73) -> Nacional(10.0.0.74)] = 486.70 km
+Network[10.0.0.76]	[Galacia(10.0.0.77) -> Asturias(10.0.0.78)] = 225.60 km
+Network[10.0.0.80]	[Galacia(10.0.0.81) -> Castilla Y Leon(10.0.0.82)] = 343.47 km
+Network[10.0.0.84]	[Extremadura(10.0.0.85) -> Nacional(10.0.0.86)] = 327.32 km
+Network[10.0.0.88]	[Extremadura(10.0.0.89) -> Andalucia(10.0.0.90)] = 188.12 km
+Network[10.0.0.92]	[Andalucia(10.0.0.93) -> Canarias (las palmas)(10.0.0.94)] = 1355.62 km
+Network[10.0.0.96]	[Andalucia(10.0.0.97) -> Castilla La Mancha(10.0.0.98)] = 253.19 km
+Network[10.0.0.100]	[Andalucia(10.0.0.101) -> Nacional(10.0.0.102)] = 391.49 km
+Network[10.0.0.104]	[Canarias (las palmas)(10.0.0.105) -> Canarias (tenerife)(10.0.0.106)] = 97.89 km
+Network[10.0.0.108]	[Canarias (tenerife)(10.0.0.109) -> Nacional(10.0.0.110)] = 1756.43 km
+Network[10.0.0.112]	[Castilla La Mancha(10.0.0.113) -> Nacional(10.0.0.114)] = 160.58 km
+Network[10.0.0.116]	[Nacional(10.0.0.117) -> Madrid(10.0.0.118)] = 0.00 km
+Network[10.0.0.120]	[Nacional(10.0.0.121) -> Castilla Y Leon(10.0.0.122)] = 161.39 km
+------------------------------------ Routers
+navarra
+rioja
+cantabria
+pais vasco
+baleares
+valencia
+aragon
+cataluna
+murcia
+galacia
+asturias
+extremadura
+andalucia
+canarias (las palmas)
+canarias (tenerife)
+castilla la mancha
+nacional
+madrid
+castilla y leon
